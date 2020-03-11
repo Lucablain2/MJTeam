@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	id="WebApp_ID" version="2.5">
+	<display-name>Commande_Serveur</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<servlet-name>Change_Status</servlet-name>
+		<servlet-class>Servlet.Change_Status</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Change_Status</servlet-name>
+		<url-pattern>/Change_Status</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>ChangeFini</servlet-name>
+		<servlet-class>Servlet.ChangeFini</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ChangeFini</servlet-name>
+		<url-pattern>/ChangeFini</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ChangeHistorise</servlet-name>
+		<servlet-class>Servlet.ChangeHistorise</servlet-class>
+	</servlet>
+
+
+	<servlet-mapping>
+		<servlet-name>ChangeHistorise</servlet-name>
+		<url-pattern>/ChangeHistorise</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>PagePrincipale</servlet-name>
+		<servlet-class>Servlet.PagePrincipale</servlet-class>
+	</servlet>
+
+
+	<servlet-mapping>
+		<servlet-name>PagePrincipale</servlet-name>
+		<url-pattern>/PagePrincipale</url-pattern>
+	</servlet-mapping>
+ 
+</web-app>
