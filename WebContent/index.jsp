@@ -21,16 +21,16 @@
 	    
 	    	<p>Choisir un Produit : (quantite x1)</p>
 		    <select name="produit" size="1">
-		    <option>Produit 1 - 0.1 euro
-		    <option>Produit 2 - 0.2 euro
-		    <option>Produit 3 - 0.3 euro
-		    <option>Produit 4 - 0.4 euro
-		    <option>Produit 5 - 0.5 euro
-		    <option>Produit 6 - 0.6 euro
-		    <option>Produit 7 - 0.7 euro
-		    <option>Produit 8 - 0.8 euro
-		    <option>Produit 9 - 0.9 euro
-		    <option>Produit 10 - 1.0 euros
+		    <option>Produit 1 - 0.08 euro HT + 0.02 TVA
+		    <option>Produit 2 - 0.16 euro HT + 0.04 TVA
+		    <option>Produit 3 - 0.24 euro HT + 0.06 TVA
+		    <option>Produit 4 - 0.32 euro HT + 0.08 TVA
+		    <option>Produit 5 - 0.40 euro HT + 0.10 TVA
+		    <option>Produit 6 - 0.48 euro HT + 0.12 TVA
+		    <option>Produit 7 - 0.56 euro HT + 0.14 TVA
+		    <option>Produit 8 - 0.64 euro HT + 0.16 TVA
+		    <option>Produit 9 - 0.72 euro HT + 0.18 TVA
+		    <option>Produit 10 - 0.80 euros HT + 0.20 TVA
 		    </select>
 	  
 	  		<p>Choisir un Acheteur :</p>
