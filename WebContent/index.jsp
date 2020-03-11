@@ -21,16 +21,16 @@
 	    
 	    	<p>Choisir un Produit : (quantite x1)</p>
 		    <select name="produit" size="1">
-		    <option>Produit 1 - 1.1 euro
-		    <option>Produit 2 - 1.2 euro
-		    <option>Produit 3 - 1.3 euro
-		    <option>Produit 4 - 1.4 euro
-		    <option>Produit 5 - 1.5 euro
-		    <option>Produit 6 - 1.6 euro
-		    <option>Produit 7 - 1.7 euro
-		    <option>Produit 8 - 1.8 euro
-		    <option>Produit 9 - 1.9 euro
-		    <option>Produit 10 - 2.0 euros
+		    <option>Produit 1 - 0.1 euro
+		    <option>Produit 2 - 0.2 euro
+		    <option>Produit 3 - 0.3 euro
+		    <option>Produit 4 - 0.4 euro
+		    <option>Produit 5 - 0.5 euro
+		    <option>Produit 6 - 0.6 euro
+		    <option>Produit 7 - 0.7 euro
+		    <option>Produit 8 - 0.8 euro
+		    <option>Produit 9 - 0.9 euro
+		    <option>Produit 10 - 1.0 euros
 		    </select>
 	  
 	  		<p>Choisir un Acheteur :</p>

@@ -9,6 +9,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 import javax.servlet.ServletException;
@@ -43,11 +44,12 @@ public class Change_Status extends HttpServlet {
 		} catch (SQLException e1) {
 			e1.printStackTrace();
 		}
-		
+		//DateFormat format = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+		Date date = new Date();
 		String magasin = request.getParameter("magasin");
 		String produit = request.getParameter("produit");
 		String acheteur = request.getParameter("acheteur");
-		String insertData = "INSERT INTO public.commande VALUES ('"+magasin+"','"+produit+"','"+acheteur+"')";
+		String insertData = "INSERT INTO public.commande VALUES ('"+magasin+"','"+produit+"','"+acheteur+"','"+date+"')";
 		try {
 			pst = conn.prepareStatement(insertData);
 			rs = pst.executeQuery();
