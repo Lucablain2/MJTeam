@@ -6,33 +6,48 @@
 <title>Accueil</title>
 </head>
 <body>
-    <div id="bloc1" class="ligne1" style="border:1px solid black;width:49%;float:left;padding-bottom:24%;">
-    
-    
-    <form action="Change_Status" method="post">
-    <input type="submit" value="Start"/>
-	</form>
-
-<table></table></div>
-    <div id="bloc2" class="ligne1" style="border:1px solid red;width:49%;float:right;padding-bottom:24%;">
-    
-    	<form action="Change_Status" method="post">
-    		<input type="submit" value="Changer Etat"/>
+	<h1>SHOP PRODUCT</h1>
+    <div id="bloc1" class="ligne1" style="border:1px solid black;width:100%;float:left;padding-bottom:40%;text-align:center;">
+    	
+	    <form action="Change_Status" method="get">
+	   		<p>Choisir un magasin :</p>
+		    <select name="magasin" size="1">
+		    <option>Magasin1
+		    <option>Magasin2
+		    <option>Magasin3
+		    <option>Magasin4
+		    <option>Magasin5
+		    </select>
+	    
+	    	<p>Choisir un Produit : (quantite x1)</p>
+		    <select name="produit" size="1">
+		    <option>Produit 1 - 1.1 euro
+		    <option>Produit 2 - 1.2 euro
+		    <option>Produit 3 - 1.3 euro
+		    <option>Produit 4 - 1.4 euro
+		    <option>Produit 5 - 1.5 euro
+		    <option>Produit 6 - 1.6 euro
+		    <option>Produit 7 - 1.7 euro
+		    <option>Produit 8 - 1.8 euro
+		    <option>Produit 9 - 1.9 euro
+		    <option>Produit 10 - 2.0 euros
+		    </select>
+	  
+	  		<p>Choisir un Acheteur :</p>
+		    <select name="acheteur" size="1">
+		    <option>Acheteur 1
+		    <option>Acheteur 2
+		    <option>Acheteur 3
+		    <option>Acheteur 4
+		    <option>Acheteur 5
+		    </select>
+	  		
+	  		<br/><br/>
+	    	<input type="submit" value="Achat"/>
 		</form>
-    	<table></table>
-    </div>
-    <div id="bloc3" class="ligne2" style="border:1px solid green;width:49%;float:left;padding-bottom:24%;">
-    	<form action="ChangeFini" method="post">
-    		<input type="submit" value="Changer Etat"/>
-		</form>
-    	<table></table>
-    </div>
-    
-    <div id="bloc4" class="ligne2" style="border:1px solid yellow;width:49%;float:right;padding-bottom:24%;">
-    	<form action="ChangeHistorise" method="post">
-    		<input type="submit" value="Changer Etat"/>
-		</form>
-    	<table></table>
-    </div>
+	
+		<table></table>
+	</div>
+  
 </body>
 </html>
