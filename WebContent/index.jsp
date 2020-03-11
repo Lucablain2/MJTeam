@@ -35,7 +35,6 @@
 	  
 	  		<p>Choisir un Acheteur :</p>
 		    <select name="acheteur" size="1">
-		    <option>Acheteur 1
 		    <option>Acheteur 2
 		    <option>Acheteur 3
 		    <option>Acheteur 4
